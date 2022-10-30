@@ -1,4 +1,4 @@
-//элементы формы
+//назначаем элементы формы
 const squareInput = document.querySelector('#square-input');
 //console.log(squareInput); - проверяем
 const squareRange = document.querySelector('#square-range');
@@ -10,7 +10,7 @@ squareRange.addEventListener('input', function () {
     squareInput.value = squareRange.value
 })
 
-//связка текстового поля с range
+//связываем текстовое поле с бегунком
 squareInput.addEventListener('input', function () {
     squareRange.value = squareInput.value;
 })
