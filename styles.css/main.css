@@ -1,0 +1,45 @@
+@import url(./normalize.css);
+/* @import url(./vars.css); */
+@import url(./fonts.css);
+
+*, 
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background-color: rgb(140, 166, 174);
+  /* background-color: var(--background); */
+  /* font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
+  font-size: 22px;
+  line-height: 140%;
+  color: var(--text-color);
+  overflow-x: hidden; */
+}
