@@ -15,98 +15,117 @@
                 <button class="image-block" type="button" aria-label="Открыть корзину товаров">
                     <img src="../assets/img/Therapy_Pulse.webp" alt="Изображение товара Therapy Pulse">
                 </button>
-                <dialog id="modal-1" class="modal" role="dialog" aria-labelledby="cart-title">
+                <dialog id="modal-1" class="modal" aria-labelledby="cart-title">
                     <div class="modal__inner">
                         <form class="modal__form" method="dialog"> 
-                            <h2 class="modal-title">Корзина товаров</h2>
-                            <div class="modal__content">
-                                <div class="product">
-                                    <img src="./assets/img/блок_питания.webp" alt="Блок питания аппарата Therapy Pulse" class="product__img">
-                                    <ul class="product-item">
-                                        <li class="product-title">Блок питания</li>
-                                        <li class="product-subtitle">Блок питания аппарата Therapy Pulse</li>
-                                        <li class="link">
+                            <h2 id="cart-title" class="modal-title">Корзина товаров</h2>
+                            <div class="content-item">
+                                <div class="modal__content">
+                                    <div class="product">
+                                        <img src="./assets/img/блок_питания.webp" alt="Блок питания аппарата Therapy Pulse" class="product__img">
+                                        <ul class="product-item">
+                                            <li class="product-title">Блок питания</li>
+                                            <li class="product-subtitle">Блок питания аппарата Therapy Pulse</li>
+                                            <li class="product-link">
                                             <a href="">Therapy Pulse</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="cart">
-                                    <div class="price">3300 ₽</div>
-                                    <div class="amount">
-                                        <button type="button" class="minus" aria-label="Уменьшить количество">-</button>
-                                        <span class="number">1</span>
-                                        <button type="button" class="plus" aria-label="Увеличить количество">+</button>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="modal__content">
-                                <div class="product">
-                                    <img src="./assets/img/блок_питания.webp" alt="Блок питания аппарата Therapy Pulse" class="product__img">
-                                    <ul class="product-item">
-                                        <li class="product-title">Блок питания</li>
-                                        <li class="product-subtitle">Блок питания аппарата Therapy Pulse</li>
-                                        <li class="link">
-                                            <a href="">Therapy Pulse</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="cart">
-                                    <div class="price">3300 ₽</div>
-                                    <div class="amount">
-                                        <button type="button" class="minus" aria-label="Уменьшить количество">-</button>
-                                        <span class="number">1</span>
-                                        <button type="button" class="plus" aria-label="Увеличить количество">+</button>
+                                    <div class="cart">
+                                        <div class="price">3300 ₽</div>
+                                        <div class="amount">
+                                            <button type="button" class="minus-btn" aria-label="Уменьшить количество">
+                                                <span class="minus"></span>
+                                            </button>
+                                            <span class="number">1</span>
+                                            <button type="button" class="plus-btn" aria-label="Увеличить количество">
+                                                <span class="plus"></span>
+                                            </button>
+                                        </div>
+                                        <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
                                     </div>
-                                    <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
                                 </div>
-                            </div>
-                            <hr>
-                            <div class="modal__content">
-                                <div class="product">
-                                    <img src="./assets/img/блок_питания.webp" alt="Блок питания аппарата Therapy Pulse" class="product__img">
-                                    <ul class="product-item">
-                                        <li class="product-title">Блок питания</li>
-                                        <li class="product-subtitle">Блок питания аппарата Therapy Pulse</li>
-                                        <li class="link">
-                                            <a href="">Therapy Pulse</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="cart">
-                                    <div class="price">3300 ₽</div>
-                                    <div class="amount">
-                                        <button type="button" class="minus" aria-label="Уменьшить количество">-</button>
-                                        <span class="number">1</span>
-                                        <button type="button" class="plus" aria-label="Увеличить количество">+</button>
+                                <hr class="divider">
+                                <div class="modal__content">
+                                    <div class="product">
+                                        <img src="./assets/img/передний_ролик.webp" alt="Ролик для манипулы аппарата Therapy Pulse" class="product__img">
+                                        <ul class="product-item">
+                                            <li class="product-title">Передний ролик</li>
+                                            <li class="product-subtitle">Ролик для манипулы аппарата Therapy Pulse</li>
+                                            <li class="product-link">
+                                                <a href="">Therapy Pulse</a>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="modal__content">
-                                <div class="product">
-                                    <img src="./assets/img/блок_питания.webp" alt="Блок питания аппарата Therapy Pulse" class="product__img">
-                                    <ul class="product-item">
-                                        <li class="product-title">Блок питания</li>
-                                        <li class="product-subtitle">Блок питания аппарата Therapy Pulse</li>
-                                        <li class="link">
-                                            <a href="">Therapy Pulse</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="cart">
-                                    <div class="price">3300 ₽</div>
-                                    <div class="amount">
-                                        <button type="button" class="minus" aria-label="Уменьшить количество">-</button>
-                                        <span class="number">1</span>
-                                        <button type="button" class="plus" aria-label="Увеличить количество">+</button>
+                                    <div class="cart">
+                                        <div class="price">2200 ₽</div>
+                                        <div class="amount">
+                                            <button type="button" class="minus-btn" aria-label="Уменьшить количество">
+                                                <span class="minus"></span>
+                                            </button>
+                                            <span class="number">1</span>
+                                            <button type="button" class="plus-btn" aria-label="Увеличить количество">
+                                                <span class="plus"></span>
+                                            </button>
+                                        </div>
+                                        <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
                                     </div>
-                                    <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
                                 </div>
-                            </div>
-                            <div class="total-price">Итоговая стоимость:<span class="total-amount">10 200 ₽</span>
+                                <hr class="divider">
+                                <div class="modal__content">
+                                    <div class="product">
+                                        <img src="./assets/img/шафт.webp" alt="Втулка для манипулы (шафт) Therapy Pulse" class="product__img">
+                                        <ul class="product-item">
+                                            <li class="product-title">Шафт</li>
+                                            <li class="product-subtitle">Втулка для манипулы (шафт) Therapy Pulse</li>
+                                            <li class="product-link">
+                                                <a href="">Therapy Pulse</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart">
+                                        <div class="price">3300 ₽</div>
+                                        <div class="amount">
+                                            <button type="button" class="minus-btn" aria-label="Уменьшить количество">
+                                                <span class="minus"></span>
+                                            </button>
+                                            <span class="number">1</span>
+                                            <button type="button" class="plus-btn" aria-label="Увеличить количество">
+                                                <span class="plus"></span>
+                                            </button>
+                                        </div>
+                                        <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
+                                    </div>
+                                </div>
+                                <hr class="divider">
+                                <div class="modal__content">
+                                    <div class="product">
+                                        <img src="./assets/img/блок_питания.webp" alt="Кабель питания Power Cube" class="product__img">
+                                        <ul class="product-item">
+                                            <li class="product-title">Кабель питания</li>
+                                            <li class="product-subtitle">Кабель питания Power Cube</li>
+                                            <li class="product-link">
+                                                <a href="">Therapy Pulse</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="cart">
+                                        <div class="price">1400 ₽</div>
+                                        <div class="amount">
+                                            <button type="button" class="minus-btn" aria-label="Уменьшить количество">
+                                                <span class="minus"></span>
+                                            </button>
+                                            <span class="number">1</span>
+                                            <button type="button" class="plus-btn" aria-label="Увеличить количество">
+                                                <span class="plus"></span>
+                                            </button>
+                                        </div>
+                                        <button type="button" class="remove-button" aria-label="Удалить товар из корзины">Удалить</button>
+                                    </div>
+                                </div>
+                                <div class="total-price">Итоговая стоимость:
+                                    <span class="total-amount">10 200 ₽</span>
+                                </div>
                             </div>
                             <div class="checkout-button-container">
                                 <button type="submit" class="checkout-button">Перейти к оформлению</button>

@@ -1,9 +1,11 @@
 :root {
   --background: #F5F5F5;
   --background-modal: #fff;
+  --black-color: #000;
+  --background-divider: rgba(0, 0, 0, 0.15);
   --first-text-color: #1d194f;
   --second-text-color: rgba(29, 25, 79, 0.5);
   --color-accent: #4067ff;
   --color-accent-light: rgba(64, 103, 255, 0.5);
-    
+  --border-color: #a0b3ff;
 }
